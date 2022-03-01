@@ -6,6 +6,6 @@
 version: 2
 updates:
   - package-ecosystem: "maven" # See documentation for possible values
-    directory: "/maven-dependency-demo" # Location of package manifests
+    directory: "/maven-demo" # Location of package manifests
     schedule:
       interval: "daily"
