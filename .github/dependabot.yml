@@ -8,7 +8,7 @@ updates:
   - package-ecosystem: "maven" # See documentation for possible values
     directory: "/maven-demo" # Location of package manifests
     schedule:
-      interval: "weekly"
+      interval: "daily"
     open-pull-requests-limit: 10
   - package-ecosystem: "npm"
     directory: "/maven-demo"
@@ -18,6 +18,12 @@ updates:
     # Disable version updates for npm dependencies
     open-pull-requests-limit: 10
   - package-ecosystem: "pip"
+    directory: "/maven-demo"
+    schedule:
+      interval: "daily"
+    # Allow up to 10 open pull requests for pip dependencies
+    open-pull-requests-limit: 10
+  - package-ecosystem: "composer"
     directory: "/maven-demo"
     schedule:
       interval: "daily"
