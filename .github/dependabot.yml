@@ -28,4 +28,4 @@ updates:
     schedule:
       interval: "daily"
     # Allow up to 10 open pull requests for pip dependencies
-    open-pull-requests-limit: 9
+    open-pull-requests-limit: 10
